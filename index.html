@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lernplan Geodynamische Prozesse</title>
+<style>
+:root{--bg:#fff7ec;--ink:#3b2a1e;--card:#ffffff;--muted:#7a6454;--blue:#1f6fb5;--brown:#8a5a2b;--red:#d1383b;--teal:#14907f;--gold:#e8a21a;--plum:#8e3b8f;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#241a14;--ink:#f6e9da;--card:#33261d;--muted:#c9b29c;--blue:#5aa8ec;--brown:#d29a5f;--red:#ff6b6e;--teal:#3fd0bb;--gold:#f3bd48;--plum:#d786d8}}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Trebuchet MS","Segoe UI",Verdana,sans-serif;line-height:1.55}
+header{background:linear-gradient(120deg,var(--blue),var(--plum) 55%,var(--red));color:#fff;padding:28px 18px 24px;text-align:center}
+header h1{margin:0 0 6px;font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.6rem,6vw,2.4rem)}
+header p{margin:0;opacity:.95}
+main{max-width:760px;margin:0 auto;padding:16px 14px 50px}
+.day{margin:26px 0 10px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.day h2{margin:0;font-family:Georgia,serif;font-size:1.4rem;color:#fff;padding:6px 16px;border-radius:30px}
+.day span{color:var(--muted);font-size:.9rem}
+.d1 h2{background:var(--blue)}.d2 h2{background:var(--brown)}.d3 h2{background:var(--red)}
+details{background:var(--card);border-radius:16px;margin:12px 0;border-left:10px solid var(--c);box-shadow:0 2px 6px rgba(80,50,20,.18)}
+details[open]{box-shadow:0 4px 14px rgba(80,50,20,.28)}
+summary{list-style:none;cursor:pointer;padding:14px 16px;display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center}
+summary::-webkit-details-marker{display:none}
+summary:focus-visible{outline:3px solid var(--gold);outline-offset:2px;border-radius:12px}
+.ic{font-size:1.9rem;width:48px;height:48px;border-radius:14px;background:var(--c);display:grid;place-items:center}
+.t b{display:block;font-size:1.08rem}
+.t small{color:var(--muted)}
+.tech{display:inline-block;margin-top:6px;background:var(--c);color:#fff;border-radius:20px;padding:3px 11px;font-size:.82rem;font-weight:bold}
+.arr{font-size:1.3rem;color:var(--c);transition:transform .25s}
+details[open] .arr{transform:rotate(180deg)}
+.body{padding:2px 18px 18px}
+.body h4{margin:14px 0 4px;color:var(--c);font-family:Georgia,serif;font-size:1.05rem}
+.body ul{margin:4px 0;padding-left:20px}
+.body li{margin:3px 0}
+.tip{background:color-mix(in srgb,var(--c) 14%,var(--card));border:2px dashed var(--c);border-radius:12px;padding:10px 14px;margin-top:12px}
+.row{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+.chip{border-radius:10px;padding:6px 10px;color:#fff;font-size:.9rem;background:var(--c)}
+.chip:nth-child(2n){background:var(--brown)}.chip:nth-child(3n){background:var(--red)}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;min-width:420px;font-size:.9rem}
+th{background:var(--c);color:#fff;padding:6px 8px;text-align:left}
+td{border:1px solid color-mix(in srgb,var(--c) 40%,transparent);padding:6px 8px;vertical-align:top}
+footer{text-align:center;color:var(--muted);padding:10px 14px 30px}
+@media (prefers-reduced-motion:reduce){.arr{transition:none}}
+</style>
+</head>
+<body>
+<header>
+<h1>🌍 Dein Lernplan: Geodynamische Prozesse</h1>
+<p>Tippe auf ein Kästchen, dann öffnen sich die Infos. Vergiss die Lerntechnik nicht!</p>
+</header>
+<main>
+
+<div class="day d1"><h2>Tag 1</h2><span>Hauptlerntag, ca. 2–3 Std.</span></div>
+
+<details style="--c:var(--brown)"><summary><div class="ic">🧅</div><div class="t"><b>1. Schalenaufbau der Erde</b><small>ca. 30 Min.</small><br><span class="tech">✏️ Skizze aus dem Kopf zeichnen</span></div><div class="arr">▼</div></summary>
+<div class="body">
+<h4>Die drei Schalen</h4>
+<div class="row"><span class="chip">Erdkruste (ozeanisch / kontinental)</span><span class="chip">Erdmantel (oberer / unterer)</span><span class="chip">Erdkern (äußerer / innerer)</span></div>
+<h4>Die Diskontinuitäten (von oben nach unten)</h4>
+<ul><li><b>Conrad</b>: innerhalb der Kruste</li><li><b>Mohorovičić</b>: Kruste / Mantel</li><li><b>Wiechert-Gutenberg</b>: Mantel / äußerer Kern</li><li><b>Lehmann</b>: äußerer / innerer Kern</li></ul>
+<div class="scroll"><table><tr><th>Schale</th><th>Tiefe</th><th>Zustand</th><th>Temperatur</th></tr>
+<tr><td>Erdkruste</td><td>0–60 km</td><td>fest</td><td>0–1000 °C</td></tr>
+<tr><td>Oberer Mantel</td><td>bis 700 km</td><td>fest/plastisch</td><td>ab 1000 °C</td></tr>
+<tr><td>Unterer Mantel</td><td>bis 2900 km</td><td>fest</td><td>ca. 3000 °C</td></tr>
+<tr><td>Äußerer Kern</td><td>bis 5100 km</td><td>flüssig</td><td>ca. 4000 °C</td></tr>
+<tr><td>Innerer Kern</td><td>bis 6371 km</td><td>fest</td><td>ca. 5000 °C</td></tr></table></div>
+<h4>Wichtige Begriffe</h4>
+<ul><li><b>Lithosphäre:</b> äußere, feste, spröde Gesteinshülle (Kruste + oberster Mantel), besteht aus mehreren Platten.</li>
+<li><b>Asthenosphäre:</b> fließfähige Gleitzone im oberen Mantel, auf der sich die Platten bewegen.</li>
+<li><b>D''-Schicht:</b> ca. 200 km dicke Grenzzone Mantel/Kern, Temperatur und Druck steigen drastisch.</li>
+<li><b>P-Wellen:</b> schnell, gehen durch Fest- und Flüssiges. <b>S-Wellen:</b> langsamer, gehen nicht durch Flüssigkeiten.</li></ul>
+<h4>Bedeutung</h4>
+<ul><li>Kruste: Bodenschätze</li><li>Mantel: Antrieb der Plattentektonik (Erdbeben, Vulkane)</li><li>Kern: Magnetfeld, das Sonnenstrahlung ablenkt</li></ul>
+<div class="tip">💡 <b>So geht's:</b> Zeichne die Erde als Kreis mit Schalen, ohne Vorlage. Dann vergleiche mit den Aufzeichnungen und male Fehler rot nach. Wiederhole, bis alles sitzt. Merke: Je tiefer, desto heißer und dichter.</div>
+</div></details>
+
+<details style="--c:var(--blue)"><summary><div class="ic">🔄</div><div class="t"><b>2. Wilson-Zyklus ⭐ am wichtigsten</b><small>ca. 45 Min.</small><br><span class="tech">📖 Geschichte erzählen + Kreis zeichnen</span></div><div class="arr">▼</div></summary>
+<div class="body">
+<h4>A: Öffnungsphase</h4>
+<ul><li><b>1. Graben-/Riftstadium:</b> Aufwölbung in der Kontinentalplatte (z. B. über Hotspot) bricht ein, Grabenbruch mit Vulkanismus. <i>Oberrheingraben, Baikalrift</i></li>
+<li><b>2. Rotes-Meer-Stadium:</b> Rift senkt sich ab, Magma strömt nach und bildet schwere ozeanische Kruste, Meerwasser dringt ein. <i>Rotes Meer</i></li>
+<li><b>3. Atlantik-Stadium:</b> Ozean wächst, zentrales Rückensystem, passive Kontinentränder ohne Gebirgsbildung. <i>Atlantik</i></li></ul>
+<h4>B: Schließungsprozess</h4>
+<ul><li><b>4. Pazifik-Stadium:</b> Ausdehnung stoppt, Subduktionszone am Rand (aktiver Kontinentrand), Tiefseerinnen, Inselbögen. <i>Pazifik</i></li>
+<li><b>5. Mittelmeer-Stadium:</b> Ozean wird weiter eingeengt, Kontinentalblöcke driften aufeinander zu. <i>Mittelmeer, Schwarzes Meer</i></li>
+<li><b>6. Kollisionsstadium:</b> Kontinente kollidieren, Faltung, Deckenbildung, Gebirge werden gehoben. <i>Alpen, Himalaya</i></li></ul>
+<div class="tip">💡 <b>So geht's:</b> Erzähle es laut als Geschichte: „Der Kontinent reißt, Wasser fließt ein, der Ozean wächst, dann kehrt es sich um und am Ende kollidieren die Kontinente.“ Verknüpfe jedes Stadium mit seinem Ortsbeispiel und zeichne den Kreis mit sechs Stationen aus dem Kopf.</div>
+</div></details>
+
+<details style="--c:var(--red)"><summary><div class="ic">🧩</div><div class="t"><b>3. Plattengrenzen</b><small>ca. 45 Min.</small><br><span class="tech">🙌 Mit den Händen nachspielen + Tabelle</span></div><div class="arr">▼</div></summary>
+<div class="body">
+<div class="scroll"><table><tr><th></th><th>Divergent (konstruktiv)</th><th>Konvergent (destruktiv)</th><th>Konservierend</th></tr>
+<tr><td><b>Bewegung</b></td><td>auseinander</td><td>aufeinander zu</td><td>aneinander vorbei</td></tr>
+<tr><td><b>Vorgang</b></td><td>Lithosphäre bricht, Magma steigt, neue ozeanische Kruste</td><td>schwerere Platte taucht ab (Subduktion)</td><td>Verhaken und ruckartiges Lösen, Kruste bleibt erhalten</td></tr>
+<tr><td><b>Folgen</b></td><td>Mittelozeanischer Rücken, Vulkane, flache Beben</td><td>Tiefseegraben, Vulkane, stärkste Beben, Gebirge</td><td>Verwerfung, starke Beben, kaum Vulkanismus</td></tr>
+<tr><td><b>Beispiele</b></td><td>Mittelatlantischer Rücken, Island, Ostafrika</td><td>Anden, Japan, Alpen, Himalaya</td><td>San-Andreas-Graben</td></tr></table></div>
+<h4>Drei Typen der Konvergenz</h4>
+<ul><li><b>Japantyp:</b> ozeanisch + ozeanisch, Inselbögen</li><li><b>Andentyp:</b> ozeanisch + kontinental, Vulkangebirge</li><li><b>Alpiner Typ:</b> kontinental + kontinental, Faltengebirge</li></ul>
+<div class="tip">💡 <b>So geht's:</b> Spiele die drei Typen mit den Händen nach (auseinander, zusammen, vorbei) und sprich dabei den Fachbegriff aus. Erstelle die Tabelle selbst und verbinde sie mit dem Wilson-Zyklus: Rift = divergent, Subduktion und Kollision = konvergent.</div>
+</div></details>
+
+<details style="--c:var(--teal)"><summary><div class="ic">💪</div><div class="t"><b>4. Antriebskräfte</b><small>ca. 20 Min.</small><br><span class="tech">🃏 Karteikarten</span></div><div class="arr">▼</div></summary>
+<div class="body">
+<ul><li><b>Rückendruck (ridge push):</b> Platten rutschen wegen ihres Gewichts von der Aufwölbung der Rücken weg.</li>
+<li><b>Plattenzug (slab pull):</b> schwere ozeanische Platte sinkt in der Subduktionszone ab und zieht die Platte mit. Etwa 10-mal stärker als der Rückendruck.</li>
+<li><b>Konvektionsströme:</b> Material bewegt sich durch Temperaturunterschiede im Kreislauf und nimmt Platten mit oder bremst sie durch Reibung.</li></ul>
+<div class="tip">💡 <b>So geht's:</b> Schreibe drei Karteikarten: Vorderseite der Name, Rückseite ein Satz plus Mini-Skizze. Mische sie und erkläre jede Karte laut, als wärst du die Lehrerin.</div>
+</div></details>
+
+<details style="--c:var(--plum)"><summary><div class="ic">🌋</div><div class="t"><b>5. Vulkanismus & Erdbeben</b><small>ca. 45 Min.</small><br><span class="tech">🧠 Verstehen statt auswendig lernen</span></div><div class="arr">▼</div></summary>
+<div class="body">
+<div class="scroll"><table><tr><th></th><th>Konstruktiv</th><th>Destruktiv</th><th>Konservierend</th></tr>
+<tr><td><b>Magma</b></td><td>basaltisch, SiO₂ ca. 45–52 %</td><td>andesitisch/dazitisch, SiO₂ ca. 60–70 %</td><td>entsteht i. d. R. nicht</td></tr>
+<tr><td><b>Viskosität</b></td><td>dünnflüssig</td><td>zähflüssig</td><td>–</td></tr>
+<tr><td><b>Gase</b></td><td>entweichen ungehindert</td><td>Gasdruck baut sich auf</td><td>–</td></tr>
+<tr><td><b>Vulkanismus</b></td><td>effusiv (ruhige Lavaströme)</td><td>explosiv (Stratovulkane, Aschewolken)</td><td>so gut wie keiner</td></tr>
+<tr><td><b>Erdbebenherd</b></td><td>sehr flach (&lt; 20 km), geringe bis moderate Stärke</td><td>unterschiedlichste Tiefe (Wadati-Benioff-Zone), stärkste Beben</td><td>flach, Stick-Slip, sehr heftig</td></tr>
+<tr><td><b>Ursache</b></td><td>Dehnungsspannung</td><td>Subduktion</td><td>Reibung, ruckartiges Lösen</td></tr></table></div>
+<h4>Warum explodieren Subduktionsvulkane?</h4>
+<p>Magma nimmt beim Aufstieg Krustenmaterial auf (Assimilation), wird siliziumreicher und zähflüssiger. Gase können nicht entweichen, der Druck steigt, bis es explosionsartig knallt.</p>
+<h4>Kurz erklärt</h4>
+<ul><li><b>Vulkanismus:</b> Magma gelangt aus dem Erdinneren an die Oberfläche.</li><li><b>Erdbeben:</b> Erschütterungen der Erdkruste, v. a. tektonische Beben durch plötzlichen Spannungsabbau. Folgen: Schäden, Tsunamis.</li></ul>
+<div class="tip">💡 <b>So geht's:</b> Lerne das Prinzip, nicht die Tabelle: zähflüssig → Gasstau → explosiv, dünnflüssig → Gase entweichen → effusiv. Stelle dir eine geschüttelte Flasche Sprudel vs. offenes Wasser vor.</div>
+</div></details>
+
+<div class="day d2"><h2>Tag 2</h2><span>nur ca. 30 Min., nach 16 Uhr</span></div>
+
+<details style="--c:var(--blue)"><summary><div class="ic">🔁</div><div class="t"><b>Wilson-Zyklus wiederholen</b><small>10 Min.</small><br><span class="tech">🧩 Active Recall: aus dem Kopf</span></div><div class="arr">▼</div></summary>
+<div class="body"><p>Klappe alle Unterlagen zu. Zeichne den Kreis mit den sechs Stadien und schreibe bei jedem ein Beispiel dazu. Dann erst vergleichen.</p>
+<div class="tip">💡 <b>So geht's:</b> Aus dem Gedächtnis abrufen bringt mehr als nur noch einmal lesen. Fehlt etwas, markiere es rot und versuche es morgen erneut.</div></div></details>
+
+<details style="--c:var(--brown)"><summary><div class="ic">⛰️</div><div class="t"><b>6. Gebirgsbildung</b><small>10 Min.</small><br><span class="tech">🧣 Handtuch-Modell</span></div><div class="arr">▼</div></summary>
+<div class="body">
+<ul><li><b>Orogenese:</b> Prozesse, die das Gefüge der Kruste verändern und ein Gebirge bilden.</li>
+<li><b>Faltengebirge:</b> Zusammenschieben (Faltung) und Heraushebung. <i>Alpen</i></li>
+<li><b>Deckengebirge:</b> Gesteine werden bei horizontaler Einengung übereinandergeschoben.</li>
+<li><b>Bruchschollengebirge:</b> Feste Blöcke bewegen sich an Verwerfungen auf und ab (Horste, Gräben). <i>Erzgebirge, Mittelgebirge</i></li></ul>
+<div class="tip">💡 <b>So geht's:</b> Schiebe ein Handtuch auf dem Tisch zusammen (Falten), schiebe zwei Bücher übereinander (Decken), brich ein Brett oder Stück Schokolade (Bruchschollen).</div>
+</div></details>
+
+<details style="--c:var(--red)"><summary><div class="ic">🏝️</div><div class="t"><b>7. Hotspot-Theorie</b><small>10 Min.</small><br><span class="tech">🕯️ Bild: Flamme und Papier</span></div><div class="arr">▼</div></summary>
+<div class="body">
+<ul><li>Vulkanismus <b>innerhalb</b> von Platten wird durch Hotspots erklärt.</li>
+<li>Manteldiapire/Plumes: heißes Material steigt von der Mantel-Kern-Grenze auf.</li>
+<li>Der Hotspot bleibt oft Millionen Jahre an derselben Stelle, die Platte driftet darüber hinweg.</li>
+<li><b>Hawaii:</b> Pazifische Platte bewegt sich mit ca. 10 cm/Jahr nach Nordwesten, Hauptvulkan Mauna Loa, Hawaii driftet langfristig vom Hotspot weg.</li></ul>
+<div class="tip">💡 <b>So geht's:</b> Halte eine Kerze (oder male eine Flamme) und ziehe ein Blatt Papier langsam darüber: Jeder Brandfleck ist eine Insel. So wird klar, warum es eine Inselkette ist.</div>
+</div></details>
+
+<div class="day d3"><h2>Tag 3</h2><span>leicht, ca. 45 Min.</span></div>
+
+<details style="--c:var(--teal)"><summary><div class="ic">💎</div><div class="t"><b>8. Gesteine & Kreislauf</b><small>15 Min.</small><br><span class="tech">🏷️ Dreier-Schema + Beispiele</span></div><div class="arr">▼</div></summary>
+<div class="body">
+<p>Mineral (z. B. Quarz, Feldspat, Glimmer) → Gestein (z. B. Granit).</p>
+<ul><li><b>Magmatisch:</b> Plutonite (Tiefengestein, langsam abgekühlt, große Kristalle, z. B. Granit), Vulkanite (Ergussgestein, schnell abgekühlt, kleine Minerale), Ganggesteine.</li>
+<li><b>Sedimentgesteine:</b> Verwitterung, Ablagerung, Diagenese. Klastisch (Sandstein, Konglomerat), biogen (Kohle, Kalkstein), chemisch (Gips, Steinsalz).</li>
+<li><b>Metamorph:</b> durch Druck und Hitze umgewandelt.</li></ul>
+<div class="tip">💡 <b>So geht's:</b> Lerne drei Schubladen mit je einem Beispiel. „Plutonit = Pluto = tief unten.“ Zeichne den Kreislauf als Pfeildiagramm.</div>
+</div></details>
+
+<details style="--c:var(--gold)"><summary><div class="ic">⏳</div><div class="t"><b>9. Erdgeschichte</b><small>15 Min.</small><br><span class="tech">📏 Zeitleiste + 24-Stunden-Modell</span></div><div class="arr">▼</div></summary>
+<div class="body">
+<div class="scroll"><table style="--c:var(--brown)"><tr><th>Ära</th><th>Periode</th><th>Beginn</th><th>Ereignis</th></tr>
+<tr><td>Präkambrium (Erdfrühzeit)</td><td>–</td><td>4,6 Mrd.</td><td>einfache Lebensformen</td></tr>
+<tr><td rowspan="6">Paläozoikum (Erdaltertum)</td><td>Kambrium</td><td>541 Mio.</td><td></td></tr>
+<tr><td>Ordovizium</td><td>485 Mio.</td><td>erste Fische</td></tr>
+<tr><td>Silur</td><td>444 Mio.</td><td>erste Landtiere</td></tr>
+<tr><td>Devon</td><td>419 Mio.</td><td></td></tr>
+<tr><td>Karbon</td><td>359 Mio.</td><td>variskische Gebirgsbildung</td></tr>
+<tr><td>Perm</td><td>299 Mio.</td><td>Urreptilien</td></tr>
+<tr><td rowspan="3">Mesozoikum (Erdmittelalter)</td><td>Trias</td><td>252 Mio.</td><td>erste Saurier</td></tr>
+<tr><td>Jura</td><td>201 Mio.</td><td>Zerfall Pangäas, Hauptzeit der Saurier</td></tr>
+<tr><td>Kreide</td><td>145 Mio.</td><td>Ende der Saurier</td></tr>
+<tr><td rowspan="2">Känozoikum (Erdneuzeit)</td><td>Tertiär</td><td>66 Mio.</td><td>alpidische Gebirgsbildung</td></tr>
+<tr><td>Quartär</td><td>2,6 Mio.</td><td>Eiszeitalter, Auftreten des Menschen</td></tr></table></div>
+<p><b>24-Stunden-Modell:</b> Der Mensch tritt erst wenige Minuten vor Mitternacht auf.</p>
+<div class="tip">💡 <b>So geht's:</b> Zeichne die Zeitleiste auf einen langen Papierstreifen, jede Ära in einer anderen Farbe. Merke die Reihenfolge Kambrium, Ordovizium, Silur, Devon, Karbon, Perm mit einem eigenen Satz (z. B. aus den Anfangsbuchstaben).</div>
+</div></details>
+
+<details style="--c:var(--plum)"><summary><div class="ic">🏆</div><div class="t"><b>10. Gesamtwiederholung</b><small>15 Min.</small><br><span class="tech">👯 Zu zweit abfragen</span></div><div class="arr">▼</div></summary>
+<div class="body">
+<ul><li>Schalenaufbau noch einmal zeichnen</li><li>Wilson-Zyklus mit allen sechs Stadien aufzeichnen</li><li>Plattengrenzen in der Tabelle erklären</li><li>Vulkane und Beben je Plattengrenze vergleichen</li></ul>
+<div class="tip">💡 <b>So geht's:</b> Fragt euch gegenseitig ab und tauscht die Rollen. Wer etwas erklären kann, hat es verstanden. Danach: Pause und Belohnung! 🎉</div>
+</div></details>
+
+</main>
+<footer>Viel Erfolg! 🌟 Pausen nicht vergessen.</footer>
+</body>
+</html>
